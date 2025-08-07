@@ -77,15 +77,15 @@ section {
 }
 
 .home {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-image: url('/img/BannerCima.png');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto; /* centraliza a seção */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* evita que conteúdo encoste na borda */
 }
 
 .home-text h1{
@@ -96,6 +96,13 @@ section {
     letter-spacing: 2px;
 }
 
+.home-img {
+  width: 50px;
+  height: 750px;
+  display: flex;
+  margin-right: 265px;
+  justify-content: center;
+}
 span {
     color: var(--other-color2);
 }
